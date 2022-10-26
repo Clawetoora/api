@@ -24,7 +24,7 @@ const getPokemon = async function () {
   // imgContainer.append(img);
   let type = await data.types[0].type.name;
   console.log(type);
-  tipas.innerHTML = "Type " + type;
+  tipas.textContent = "Type " + type;
   if (type === "water") {
     card.style.backgroundColor = "#1551E6";
   }
@@ -75,6 +75,9 @@ const getPokemon = async function () {
   }
   if (type === "flying") {
     card.style.backgroundColor = "#4A667F";
+  }
+  if (type === "dragon") {
+    card.style.backgroundColor = "#438A94";
   }
 };
 
