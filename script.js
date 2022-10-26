@@ -5,6 +5,7 @@ let img = document.getElementById("nuotrauka");
 let skaicius = document.getElementById("counter");
 let reset = document.getElementById("reset");
 let card = document.getElementById("img-wrapper");
+let tipas = document.getElementById("tipas");
 
 const getPokemon = async function () {
   let randomNumber = Math.floor(Math.random() * 905);
@@ -23,6 +24,7 @@ const getPokemon = async function () {
   // imgContainer.append(img);
   let type = await data.types[0].type.name;
   console.log(type);
+  tipas.innerHTML = "Type " + type;
   if (type === "water") {
     card.style.backgroundColor = "#1551E6";
   }
