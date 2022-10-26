@@ -28,14 +28,16 @@ h1 {
   font-family: PokemonSolid;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: yellow;
-  /* font-size: 70px; */
 }
 
 h2 {
   text-align: center;
+  font-size: 40px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
-.img-wrapper {
+#img-wrapper {
   margin-top: 50px;
   display: flex;
   justify-content: center;
