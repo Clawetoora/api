@@ -1,0 +1,87 @@
+@font-face {
+  font-family: PokemonHollow;
+  font-style: normal;
+  font-weight: normal;
+  src: local("Pokemon Hollow"), url("Pokemon Hollow.woff") format("woff");
+}
+
+@font-face {
+  font-family: PokemonSolid;
+  font-style: normal;
+  font-weight: normal;
+  src: local("Pokemon Solid"), url("Pokemon Solid.woff") format("woff");
+}
+
+body {
+  background-color: #eae2b7;
+}
+.container {
+  margin-top: 5vh;
+  height: 100%;
+  border-radius: 30px;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+  color: #003049;
+  font-family: PokemonSolid;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: yellow;
+  /* font-size: 70px; */
+}
+
+h2 {
+  text-align: center;
+}
+
+.img-wrapper {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 4px solid black;
+  border-radius: 20px;
+  background-color: #003049;
+}
+
+#img-container {
+  width: 400px;
+  height: auto;
+}
+
+img {
+  width: 100%;
+}
+
+#nuotrauka {
+  background: transparent;
+}
+
+#name {
+  color: White;
+}
+
+#get-pokemon {
+  padding: 15px 30px;
+  margin-bottom: 15px;
+  background-color: #d62828;
+  color: white;
+  border: none;
+  border-radius: 15px;
+}
+
+#reset {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  background-color: #f77f00;
+  color: white;
+}
+
+#counter {
+  color: white;
+  font-size: 30px;
+}
